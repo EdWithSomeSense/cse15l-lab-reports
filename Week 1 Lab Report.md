@@ -36,11 +36,17 @@ $ ssh cs15lwi23xy@ieng6.ucsd.edu
 ```
 
 When you get connected to the server it will look something like this.
+
 ![Image](https://i.imgur.com/frKefe8.png)
+
+
 When connecting to a new server for the first time, this message will typically show up. However, if you are using this on a server that you are typically using then it could mean that someone is trying to listen in or control the connection.
 
 Anyhow, continue by inputting `yes` into the terminal, and it will look like the following.
+
 ![Image](https://i.imgur.com/jgV4eO7.png)
+
+
 This is where you input the password that you have created while following the instructions on Step 1.
 
 After inputting your password, you are now connected to a computer in the CSE basement and the commands that you run in your terminal will now run in that specific computer.
