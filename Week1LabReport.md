@@ -54,7 +54,7 @@ After inputting your password, you are now connected to a computer in the CSE ba
 ## Part 4 - Testing
 Now here you can test whether you have successfully connected to the computer in the CSE basement.\
 Feel free to run and commands like `cd`, `ls`, `pwd`, `mkdir`, and `cp` and look at the results that come up. When you are done you can log our of the remote server in your terminal with two methods.\
-1.) Ctrl/CMD - D
+1.) Ctrl/CMD - D\
 2.) running the command `exit`
 
 
