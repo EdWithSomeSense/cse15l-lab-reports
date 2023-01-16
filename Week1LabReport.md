@@ -7,7 +7,8 @@ It's quite simple in trying to find your ieng6 account by clicking on the follow
 Once you enter your credentials you would want to click on the ETS account name.
 ![Image](https://i.imgur.com/SVe127u.png)
 
-Follow the [following tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) provided by Professor Joe on how to properly change your password for your `ieng6` account so that you won't accidentally change your `AD` account password as well.
+After that there would be a prompt asking you to change your password. Submit a new password, but remember to `no` on the Change myTritonLink password as we are not trying to change that as well. \
+If everything worked properly, then you should have a password linked to your account and will now be able to access your `ieng6` account now!
 
 ## Part 2 - Downloading Visual Studio Code
 (If you are using one of the lab computers, you can skip this process)
