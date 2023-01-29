@@ -60,3 +60,10 @@ Feel free to run and commands like `cd`, `ls`, `pwd`, `mkdir`, and `cp` and look
 
 
 Congratulations on making it this far! You have succesfully accessed your `ieng6` account using VSC and are now ready to venture on. Join me next time as I teach you how to do more stuff with it.
+
+Here are some examples: \
+![Image](https://i.imgur.com/NPAAStb.png)\
+`cd` - changes directory \
+`pwd` - Print Working Directory \
+`mkdir` - make directory \
+`ls` - list files 
