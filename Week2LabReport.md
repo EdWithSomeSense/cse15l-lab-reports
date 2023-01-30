@@ -128,3 +128,17 @@ For example:
     assertArrayEquals(new int[]{1}, input1);
  ```
  
+ So the fix could probably be something along the lines of making two different variables and twao different arrayssuch as the following.
+ ```
+ int j = input1.length();
+ int[] tempInputArray = new Integer[j];
+ for(int i = 0; i < intput1.length(); i++){
+    tempInputArray[i] = input1[j];
+    j--;
+    }
+ return tempInputArray;
+ ```
+ This way instead of forcing a singular array to hold everything, instead we make a second array that returns the proper results.
+ 
+ ## Part 3 - What's to be learned
+ So for Week 2 and Week 3, I actually properly learned how to JUnit test within lab. Additionally, I have learned how to set up servers, whether it's through the `ieng6` or just local. I also learned how to edit so that the servers can server different purposes in general.
