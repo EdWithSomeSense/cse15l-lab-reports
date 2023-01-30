@@ -77,5 +77,8 @@ java StringServer {whatever port you want}
 ```
 This allows you to start up the server with the program.
 
-Within the url you can type after your port `/add-message?s={whatever message you want}`. Below is an example
-![image](https://i.imgur.com/aRsBrMv.png)
+Within the url you can type after your port `/add-message?s={whatever message you want}`. Below is an example.
+![image](https://i.imgur.com/aRsBrMv.png) \
+
+You can add more and it will look something similar like this. \
+![image](https://i.imgur.com/9iFHksY.png) \
