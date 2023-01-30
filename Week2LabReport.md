@@ -1,4 +1,4 @@
-# Week 2 Lab Report
+# Week 3 Lab Report
 Welcome and congradulations on making into the third week of the CSE 15L course. Today, I, your instructor, will show you the way on how to \
 1.)  Create a server that adds strings and prints it on top of itself \
 2.) Talk about bugs that have happened during the Lab Session today, and how you could possibly fix it. \
