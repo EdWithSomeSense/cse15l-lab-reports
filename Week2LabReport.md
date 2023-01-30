@@ -88,4 +88,7 @@ You can add more and it will look something similar like this. \
 ![image](https://i.imgur.com/9iFHksY.png) 
 ![image](https://i.imgur.com/NiCGCw9.png)
 
+### Q/A
+
 It is evident that we have used an ArrayList to store all of the values. It isn't until the end of each processes, we store all the values in the ArrayList in a variable called "holder" that ends up printing all the information.
+In the url, we are greeted with the `https://localhost:1024` and that stand alone only prints out what has been in the store ArrayList. However, once we add the `add-message?s=` with our personal hand crafted message. It saves the input within the ArrayList, then at the end it would be "placed" in holder with a new line every time. That way we are able to print out everything within the store while having new lines to seperate each inputs.
