@@ -100,3 +100,31 @@ In the url, we are greeted with the `https://localhost:1024` and that stand alon
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** \
 It is evident that we have used an ArrayList to store all of the values. It isn't until the end of each processes, we store all the values in the ArrayList in a variable called "holder" that ends up printing all the information. The ArrayList takes the input from after the `= split` where it takes in any string that we may say after the equal sign.
 
+## Part 2 - the Bugs from Lab 3
+
+In our ArrayTest.java, we have attempted to test reverseInPlace() method that is found within the ArrayExamples.java folder. However, evidently there were some bugs. \
+Our code is the following:
+```
+@Test
+ public void testLongArrayReverse(){
+    int[] input1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1}, input1);
+```
+So essentially what we get is
+`10, 9, 8, 7, 6, 6, 7, 8, 9, 10`
+![image](https://i.imgur.com/8oDAL4q.png)
+![image](https://i.imgur.com/6vTwy7n.png)
+![image](https://i.imgur.com/nOTVZ9R.png)
+
+It was shown that we have expected the array to be reversed, however, we ended up reversing half the array and then re-reversing the half that we have copied. \
+The non-failure test that one could do in this situation would be to only do an array with the length of only one. That way no matter how it's "reversed" it will still technically be reversed. \
+For example:
+```
+@Test
+ public void testLongArrayReverse(){
+    int[] input1 = {1};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{1}, input1);
+ ```
+ 
