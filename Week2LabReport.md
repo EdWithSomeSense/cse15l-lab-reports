@@ -89,6 +89,10 @@ You can add more and it will look something similar like this. \
 ![image](https://i.imgur.com/NiCGCw9.png)
 
 ### Q/A
-
-It is evident that we have used an ArrayList to store all of the values. It isn't until the end of each processes, we store all the values in the ArrayList in a variable called "holder" that ends up printing all the information.
+**Which methods in your code are called?** \
+We have several different methods that does different things that overall contribues to the overall gathering of information. From the `.getPath()`, the program looks at the pathing of the url, and sees what to output. At the default output it just outputs whats currently within the store ArrayList. after checking if the url path `.contains` the /add-message, thats when the system understands that they have to add the value to the store and then have `holder` return whats currently in the store.
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 In the url, we are greeted with the `https://localhost:1024` and that stand alone only prints out what has been in the store ArrayList. However, once we add the `add-message?s=` with our personal hand crafted message. It saves the input within the ArrayList, then at the end it would be "placed" in holder with a new line every time. That way we are able to print out everything within the store while having new lines to seperate each inputs.
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
+It is evident that we have used an ArrayList to store all of the values. It isn't until the end of each processes, we store all the values in the ArrayList in a variable called "holder" that ends up printing all the information. The ArrayList takes the input from after the `= split` where it takes in any string that we may say after the equal sign.
+
