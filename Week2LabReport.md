@@ -27,7 +27,9 @@ class Handler implements URLHandler {
 
     public String handleRequest(URI url) {
         String holder = "";
+        //used to check if the end of the url path is equivalent to something
         if (url.getPath().equals("/")) {
+            // saves it all in holder
             for(int i = 0; i < store.size(); i++){
                 holder += store.get(i) + "\n";
             }
@@ -36,11 +38,13 @@ class Handler implements URLHandler {
 
         } else {
             System.out.println("Path: " + url.getPath());
+            //used to see if the end of the url path is = /add-message and adds the word(s) after the /message
             if (url.getPath().contains("/add-message")) {
+                // splits the url and the word with the equal sign
                 String[] parameters = url.getQuery().split("=");
 
                 store.add(parameters[1]);
-
+                // saves it all in holder
                 for(int i = 0; i < store.size(); i++){
                     holder += store.get(i) + "\n";
                 }
@@ -83,3 +87,5 @@ Within the url you can type after your port `/add-message?s={whatever message yo
 You can add more and it will look something similar like this. \
 ![image](https://i.imgur.com/9iFHksY.png) 
 ![image](https://i.imgur.com/NiCGCw9.png)
+
+It is evident that we have used an ArrayList to store all of the values. It isn't until the end of each processes, we store all the values in the ArrayList in a variable called "holder" that ends up printing all the information.
