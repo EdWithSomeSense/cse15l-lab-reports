@@ -140,5 +140,5 @@ For example:
  ```
  This way instead of forcing a singular array to hold everything, instead we make a second array that returns the proper results.
  
- ## Part 3 - What's to be learned
+## Part 3 - What's to be learned
  So for Week 2 and Week 3, I actually properly learned how to JUnit test within lab. Additionally, I have learned how to set up servers, whether it's through the `ieng6` or just local. I also learned how to edit so that the servers can server different purposes in general.
