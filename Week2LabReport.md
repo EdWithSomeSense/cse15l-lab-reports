@@ -7,7 +7,7 @@ Welcome and congradulations on making into the third week of the CSE 15L course.
 Are you ready? If so, lets get down to it!
 
 ## Part 1 - creating the site
-So during week two of the CSE 15L course, we learned about how to make a server during our lab session. This material is very essential in the overall creation of our server. /
+So during week two of the CSE 15L course, we learned about how to make a server during our lab session. This material is very essential in the overall creation of our server.
 Head to the [wavelet github](https://github.com/ucsd-cse15l-f22/wavelet) and download it onto your computer. 
 
 Honestly speaking, you will not need the NumberServer.java since you will be recreating something else known as StringServer. \
