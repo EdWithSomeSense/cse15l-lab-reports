@@ -66,3 +66,16 @@ public class StringServer {
     }
 }
 ```
+The following code uses the information that you use in the url and display them on the text. \
+In the command prompt Javac the following:
+```
+javac Server.java StringServer.java
+```
+Next, you follow it up with a:
+```
+java StringServer {whatever port you want}
+```
+This allows you to start up the server with the program.
+
+Within the url you can type after your port `/add-message?s={whatever message you want}`. Below is an example
+![image](https://i.imgur.com/aRsBrMv.png)
