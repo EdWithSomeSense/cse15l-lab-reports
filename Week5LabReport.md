@@ -12,7 +12,7 @@ Below are two examples from the same text file.
 `grep -w  "store" ch1.txt`
 
 
-![image](https://i.imgur.com/Hk5WNHX.png)
+![image](https://i.imgur.com/HUzQlHF.png)
 
 
 `grep -w "cut" ch1.txt`
