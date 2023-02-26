@@ -28,7 +28,7 @@ After copying that link go back to your terminal and type the following `git clo
   
   Congratulations! You have now cloned the repository into your `ieng6` account.
   
-  ## Step 3: Failing our Tests
+## Step 3: Failing our Tests
 That's right you read it properly. We need to show that we failed our tests. 
 First, we have to change our directory to the right one, so let's cd into lab7.
 Simply just type `cd l<tab>` and it should automatically turn to `cd lab7/`.
