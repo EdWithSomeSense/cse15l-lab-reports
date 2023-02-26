@@ -71,7 +71,7 @@ That's right, lets see if our code works now. Do the following `<up>, <up>, <up>
   
   ![image](https://i.imgur.com/T7ao17E.png)
   
-  ## El Fin
+## El Fin
   Congratulations, you have completed the task, now you can find stupid ways to speed it up like making it in mostly one command like this. 
   
   ```
