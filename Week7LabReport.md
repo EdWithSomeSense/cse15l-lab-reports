@@ -12,11 +12,17 @@ To start off, we need to fork the repository given to us. Which is this [link](h
 
 After you for the repository you are ready to begin the steps.
 
-## Step 1: Login to your ieng6 account
+## Steps 1-3: The setup
+* If done before, delete any existing repo.
+* Fork the repo from here: https://github.com/ucsd-cse15l-w23/lab7
+* Start the timer 
+
+
+## Step 4: Login to your ieng6 account
 Login to your ieng6 account with `ssh cs15lwi23___@ieng6.ucsd.edu`(fill in the blank with your unique username).
 ![image](https://i.imgur.com/xVL9acX.png)
 
-## Step 2: Cloning your github repository
+## Step 5: Cloning your github repository
 Go to your github that you have previously forked. 
 
 Go to Clone>Local>SSH and copy the link so you can prepare the clone.
@@ -28,7 +34,7 @@ After copying that link go back to your terminal and type the following `git clo
   
   Congratulations! You have now cloned the repository into your `ieng6` account.
   
-## Step 3: Failing our Tests
+## Step 6: Failing our Tests
 That's right you read it properly. We need to show that we failed our tests. 
 First, we have to change our directory to the right one, so let's cd into lab7.
 Simply just type `cd l<tab>` and it should automatically turn to `cd lab7/`.
@@ -41,7 +47,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ________
 ```
 
-In the blank, you want to fill that with `L<tab>`. Unfortunately, we are unable to just tab this one easily this time, because it'll become `<ListExamples>` you have to type `<T><tab>` for it to become `<ListExamplesTests.>` At that point, just `<backspace>` to delete the extra period so it'll beomce `ListExamplesTests.
+In the blank, you want to fill that with `L<tab>`. Unfortunately, we are unable to just tab this one easily this time, because it'll become `<ListExamples>` you have to type `<T><tab>` for it to become `<ListExamplesTests.>` At that point, just `<backspace>` to delete the extra period so it'll become `ListExamplesTests`.
 
 Either way, we should now be able to see the failure after you run the two lines of code there.
 ![image](https://i.imgur.com/YJ4YKSn.png)
@@ -65,7 +71,7 @@ That's right, lets see if our code works now. Do the following `<up>, <up>, <up>
   
   Congrats! Your new code now works.
   
-## Step 6: Commiting and pushing
+## Step 7: Commiting and pushing
   So, we basically want to save all this information in our Github account. So to do that we need to git add the changed file and commit it then push it.
   so do `git add L<tab>.java`. Then do `git commit -m "done"` which essentially commits the file with the comment of "done". And lastly we only need to push it with a `git push` command. 
   
