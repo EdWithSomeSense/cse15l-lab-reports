@@ -52,7 +52,7 @@ In the blank, you want to fill that with `L<tab>`. Unfortunately, we are unable 
 Either way, we should now be able to see the failure after you run the two lines of code there.
 ![image](https://i.imgur.com/YJ4YKSn.png)
 
-## Step 4: Fixing the issue
+## Step 7: Fixing the issue
 So now that we found out that we are wrong, we need to fix it. 
 
 For this we will utilize the `nano` command. The error is in the file `ListExamples.java` on line 43 character 13, so we can type something like `nano +43,13 L<tab>.java` and it will look something like this.
@@ -65,13 +65,13 @@ After submitting that command you will be taken to the code and the exact area o
 ![image](https://i.imgur.com/ADcvvgH.png)
 ![image](https://i.imgur.com/m1OC8pZ.png)
 
-## Step 5: Redemption Hour
+## Step 8: Redemption Hour
 That's right, lets see if our code works now. Do the following `<up>, <up>, <up>` and you should reach the javac command from earlier. After compiling the files, we can run it. Press `<up>, <up>, <up>` to get to the Java command and run it.
   ![image](https://i.imgur.com/wsBivpA.png)
   
   Congrats! Your new code now works.
   
-## Step 7: Commiting and pushing
+## Step 9: Commiting and pushing
   So, we basically want to save all this information in our Github account. So to do that we need to git add the changed file and commit it then push it.
   so do `git add L<tab>.java`. Then do `git commit -m "done"` which essentially commits the file with the comment of "done". And lastly we only need to push it with a `git push` command. 
   
